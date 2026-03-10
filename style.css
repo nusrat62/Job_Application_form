@@ -1,4 +1,4 @@
-/* Reset */
+
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +6,6 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* Body Background */
 body {
     background: linear-gradient(135deg, #34ADFF, #4f5355);
     min-height: 100vh;
@@ -15,13 +14,11 @@ body {
     justify-content: center;
 }
 
-/* Container */
 .container {
     width: 95%;
     max-width: 900px;
 }
 
-/* Apply Box */
 .apply_box {
     background-color: #fff;
     padding: 30px 25px;
@@ -47,7 +44,6 @@ h1 {
     color: #555;
 }
 
-/* Form Layout */
 .form_container {
     margin-top: 25px;
     display: grid;
@@ -55,7 +51,6 @@ h1 {
     gap: 20px;
 }
 
-/* Form Controls */
 .form_control, .textarea_control {
     display: flex;
     flex-direction: column;
@@ -82,7 +77,6 @@ input:focus, select:focus, textarea:focus {
     box-shadow: 0 0 5px rgba(0,123,255,0.3);
 }
 
-/* Textarea full width */
 .textarea_control {
     grid-column: 1 / span 2;
 }
@@ -91,7 +85,7 @@ input:focus, select:focus, textarea:focus {
     width: 100%;
 }
 
-/* Button */
+
 .button_container {
     display: flex;
     justify-content: flex-end;
@@ -115,7 +109,6 @@ button:hover {
     border: 2px solid #007bff;
 }
 
-/* Responsive */
 @media(max-width: 460px) {
     .textarea_control {
         grid-column: 1 / span 1;
